@@ -1,2 +1,5 @@
 # Assignments
-Contains week 3, week 4 and week 5 assignments
+This repository is for the week 3 task given by Zuri
+
+# Author
+https://github.com/Samuelcsc
