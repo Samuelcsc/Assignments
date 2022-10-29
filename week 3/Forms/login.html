@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+
+<body>
+  <div class="container-login">
+    <form action="success.html" class="loginform">
+      <div class="inner-div">
+        <div>
+          <label for="Login"><strong>Log in</strong></label><br />
+          <button class="google">Log in with Google</button>
+        </div>
+        <div>
+          <label for="email">Email</label><br />
+          <input class="input" type="email" name="email" id="email" placeholder="Enter Your Email Address" required />
+        </div>
+        <div>
+          <label for="password">Password</label><br />
+          <input class="input" type="password" name="password" id="password" placeholder="At least 8 characters"
+            required>
+        </div>
+        <div class="remember">
+          <input type="checkbox" required /><label class="agreement">Remember me</label>
+        </div>
+        <button class="login">Login</button>
+      </div>
+      <p>Don't have an account?</p>
+      <a href="#">Sign up</a>
+    </form>
+  </div>
+</body>
+
+</html>

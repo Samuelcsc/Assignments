@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <main>
+    <div class="container">
+      <form action="login.html" class="signupform">
+        <div>
+          <label for="firstname"><strong>First Name</strong></label><br />
+          <input class="input" type="text" name="firstname" id="firstname" placeholder="Enter Your First Name" required>
+        </div>
+        <div>
+          <label for="lastname"><strong>Last Name</strong></label><br />
+          <input class="input" type="text" name="lastname" id="lastname" placeholder="Enter Your Last Name" required>
+        </div>
+        <div>
+          <label for="phonenumber"><strong>Phone Number</strong></label><br />
+          <input class="input" type="tel" name="phonenumber" id="phonenumber" placeholder="Enter Your Phone Number"
+            required>
+        </div>
+        <div>
+          <label for="email"><strong>Email</strong></label><br />
+          <input class="input" type="email" name="email" id="email" placeholder="Enter Your Email Address" required />
+        </div>
+        <div>
+          <label for="Gender"><strong>Gender</strong></label><br />
+          <select class="input" id="gender">
+            <option>Male</option>
+            <option>Female</option>
+            <option>I Prefer Not To Say</option>
+          </select>
+        </div>
+        <div>
+          <label for="Date Of Birth"><strong>Date Of Birth</strong></label><br />
+          <input class="input" type="date" name="dateofbirth" id="dateofbirth" required />
+        </div>
+        <div>
+          <label for="favoritecolor"><strong>Favorite Color</strong></label><br />
+          <input class="color" type="color" name="favoritecolor" id="dateofbirth" required />
+        </div>
+        <div>
+          <label for="password"><strong>Password</strong></label><br />
+          <input class="input" type="password" name="password" id="password" placeholder="At least 8 characters"
+            required>
+        </div>
+        <div>
+          <input type="checkbox" required /><label class="agreement">I agree with Terms and
+            Privacy</label>
+        </div>
+        <button class="signup">Sign up</button>
+      </form>
+    </div>
+  </main>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
